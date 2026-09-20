@@ -56,7 +56,6 @@ if (movieRating === "T18" && customerAge < 18) {
     let ticketPrice = basePrice + surcharge;
     let discountAmount = (ticketPrice * discountPercent) / 100;
     let finalPayment = ticketPrice - discountAmount;
-
     const giftMessage =
       seatType === "COUPLE"
         ? "Tang 01 ly nuoc ngot co lon"
